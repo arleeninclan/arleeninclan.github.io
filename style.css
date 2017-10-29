@@ -2,6 +2,10 @@
   margin: 0px;
 }
 
+button {
+  border-radius: 11px;
+}
+
 #nav {
   background-image: url("http://www.fashionwallpaper.co.uk/media/catalog/product/cache/1/image/475x/040ec09b1e35df139433887a97daa66f/_/_/__auto_tile_13197__123401full.jpg");
 }
