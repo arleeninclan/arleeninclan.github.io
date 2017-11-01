@@ -41,3 +41,95 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+*{
+  margin: 0px;
+}
+
+button {
+  border-radius: 11px;
+}
+
+#nav {
+  background-image: url("http://www.fashionwallpaper.co.uk/media/catalog/product/cache/1/image/475x/040ec09b1e35df139433887a97daa66f/_/_/__auto_tile_13197__123401full.jpg");
+}
+
+#nav img {
+  width: 9%;
+}
+
+#nav {
+  text-align: center; 
+  font-weight: bold;
+  line-height: 100%;
+}
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li{
+  font-family: 'Rouge Script', cursive;
+  font-size: 50px;
+  text-shadow: 3px 3px #9b9a99;
+}
+
+#spotify {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px #9b9a99;
+  text-align: center;
+  background-color: #d4f7cf
+}
+
+#spotify iframe {
+  width: 400px;
+}
+
+hr {
+  width: 100%;
+  color: #fffac1;
+  background-color: #fffac1;
+  height: 13px;
+}
+
+#top{
+  height: 2px;
+  border:4px dashed white;
+  color: #fffac1;
+  background-color: #fffac1;
+}
+
+#images img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.body {
+  background-color: #fffac1;
+}
+
+#before, #next {
+  background-color: #b1aec4;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  margin: 7px;
+}
+
+#images img {
+  display: inline;
+  position: relative;
+  height: 280px;
+}
+
+#images {
+  text-align: center;
+}
+
+
