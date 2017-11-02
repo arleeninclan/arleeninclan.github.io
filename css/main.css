@@ -1,56 +1,36 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 *{
   margin: 0px;
 }
 
 button {
   border-radius: 11px;
-    background-color: #c6d6b8;
 }
 
+#nav {
+  background-image: url("http://www.fashionwallpaper.co.uk/media/catalog/product/cache/1/image/475x/040ec09b1e35df139433887a97daa66f/_/_/__auto_tile_13197__123401full.jpg");
+}
+
+#nav img {
+  width: 9%;
+}
+
+#nav {
+  text-align: center; 
+  font-weight: bold;
+  line-height: 100%;
+}
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li{
+  font-family: 'Rouge Script', cursive;
+  font-size: 50px;
+  text-shadow: 3px 3px #9b9a99;
+}
 
 #spotify {
   text-transform: uppercase;
@@ -66,3 +46,75 @@ button {
   width: 400px;
 }
 
+hr {
+  width: 100%;
+  color: #fffac1;
+  background-color: #fffac1;
+  height: 13px;
+}
+
+#top{
+  height: 2px;
+  border:4px dashed white;
+  color: #fffac1;
+  background-color: #fffac1;
+}
+
+#images img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.body {
+  background-color: #fffac1;
+}
+
+#before, #next {
+  background-color: #b1aec4;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  margin: 7px;
+}
+
+#images img {
+  display: inline;
+  position: relative;
+  height: 280px;
+}
+
+#contact {
+  margin: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+#images {
+  text-align: center;
+}
+
+#first, #second, #third{
+  background-color: #b2d8e8;
+  margin: 20px;
+  padding: 20px;
+  border:4px dashed white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+}
+
+.updates h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Playfair Display SC', serif;
+  text-shadow: 2px 2px #9b9a99;
+}
+
+.updates h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 23px;
+}
