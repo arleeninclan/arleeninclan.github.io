@@ -9,6 +9,9 @@ body {
   text-align: center; 
   font-weight: bold;
   line-height: 100%;
+  position: fixed;
+  top: 0; 
+  width: 100%;
 }
 
 #nav img {
@@ -29,6 +32,9 @@ body {
 
 nav {
   line-height: 29px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul, footer ul {
