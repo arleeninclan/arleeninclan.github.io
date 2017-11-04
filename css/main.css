@@ -91,3 +91,49 @@ footer {
 #welcome {
   font-size: 17px;
 }
+
+
+
+
+
+
+#musicbooks {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Courgette', cursive;
+}
+
+#discoball {
+  text-align: center;
+}
+
+#discoball img {
+  width: 18%;
+}
+
+#wavegif {
+  text-align: center;
+}
+ 
+#wavegif img{
+  width: 99%;
+  height: 170px;
+}
+#spotify {
+  text-align: center;
+}
+
+.music h3, .movies h3, .tvshows h3 {
+  /*font-family: 'Tangerine', cursive; */
+  font-family: 'Arima Madurai', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.music, .movies, .tvshows {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.music h4, .movies h4, .tvshows h4{
+  font-size: 18px;
+  font-style: italic;
+}
