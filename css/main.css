@@ -1,6 +1,6 @@
 .post {
-  color: red;
-  font-size: 30px;
+  background-color: #cec2c0;
+  border: 1px dashed black;
 }
 body {
   background-color: #fcfcef;
@@ -80,15 +80,6 @@ footer {
   margin-top: 3px;
   margin-bottom: 3px;
   margin-left: 5px;
-}
-.recents h2{
-  font-size: 40px;
-  text-align: center;
-  font-family: 'Rouge Script', cursive;
-}
-#first, #second, #third {
-  background-color: #cec2c0;
-  border: 1px dashed black;
 }
 
 #welcome {
