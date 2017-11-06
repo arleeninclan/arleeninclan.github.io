@@ -6,7 +6,9 @@
 		<div class="content">
 			{% for post in site.posts %}
 			<h2> {{ post.title }} </h2>
+			<p> {{ post.date }} </p>
 			{% endfor %}
+			
 			{{content}}
 		</div>
 
