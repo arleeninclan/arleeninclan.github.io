@@ -1,4 +1,7 @@
-
+.post {
+  color: red;
+  font-size: 30px;
+}
 body {
   background-color: #fcfcef;
   margin: 20px; 
