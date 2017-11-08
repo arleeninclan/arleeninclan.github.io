@@ -10,7 +10,7 @@
 			{% for post in site.posts limit:3 %}
 			<h2> {{ post.title }} </h2>
 			<p> {{ post.date }} </p>
-			{{ post.excerpt }}
+				{{ post.excerpt }} <p> <a href="">Read More...</a></p>
 			{% endfor %}
 			</div>
 			
