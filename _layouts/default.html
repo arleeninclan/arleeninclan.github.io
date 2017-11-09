@@ -8,11 +8,11 @@
 			
 			<div class="post">
 			{% for post in site.posts limit:3 %}
-			<h2> {{ post.title }} </h2>
-			<p> {{ post.date | date: "%Y-%m-%d }} </p>
-				{{ post.excerpt }} 
-				<p>CLICK <a href=" {{ post.url }} "> HERE </a> TO READ MORE </p>
-			{% endfor %}
+			<h2>{{post.title}}</h2>
+			<h3>{{post.date}}</h3>
+			<p>{{post.excerpt}}</p>
+			<h2>Click <a href="{{post.url}}">here</a> to read more! </h2>
+			{%endfor%}
 			</div>
 			
 		</div>
