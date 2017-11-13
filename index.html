@@ -1,24 +1,21 @@
 ---
 layout: default
 ---
-<body>
-  
 <div id="images">
   <button id="before"> &lt; </button>
   <img src="https://data.whicdn.com/images/257310286/superthumb.jpg">
   <button id="next"> &gt; </button>
-  </div>
+</div>
 
 <div id="welcome">
     <p>Welcome to my personal website! I will be posting all kinds of different things, such as music and playlists, favorite quotes, recommendations on books and movies, and thoughts. </p>
-  </div>
+</div>
 
- 			<div class="post">
+<div class="post">
 			{% for post in site.posts limit:3 %}
 			<h2>{{post.title}}</h2>
 			<h3>{{post.date}}</h3>
 			<p>{{post.excerpt}}</p>
 			<h2> Click here to read more! </h2>
 			{% endfor %}
-			</div>
-</body>
+</div>
