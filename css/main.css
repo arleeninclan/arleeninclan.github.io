@@ -1,7 +1,7 @@
 .post {
   background-color: #cec2c0;
   border: 2px dashed black;
-  padding: 25px 25px 25px 25px;
+  margin: 4px;
 }
 body {
   background-color: #fcfcef;
