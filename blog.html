@@ -3,8 +3,8 @@ layout: default
 ---
 {% for post in site.posts %}
 <div class="post">
-			<h2> {{ post.title }} </h2>
-			<p> {{ post.date | date: %Y-%m-%d }} </p>
+	<h2> {{ post.title }} </h2>
+	<p> {{ post.date | date: %Y-%m-%d }} </p>
+	{{ post.content }}
 </div>
-				{{ post.content }}
 {% endfor %}
